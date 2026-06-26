@@ -11,7 +11,7 @@ Or add it manually to your Cursor `mcp.json`:
 ```json
 {
   "mcpServers": {
-    "better-stack": {
+    "betterstack": {
       "type": "http",
       "url": "https://mcp.betterstack.com"
     }
