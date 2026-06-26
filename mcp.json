@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "better-stack": {
+    "betterstack": {
       "type": "http",
       "url": "https://mcp.betterstack.com"
     }
