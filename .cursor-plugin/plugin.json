@@ -1,5 +1,5 @@
 {
-  "name": "better-stack",
+  "name": "betterstack",
   "displayName": "Better Stack",
   "version": "1.0.0",
   "description": "Observability for AI agents: query logs and metrics, build dashboards, manage uptime monitors, and respond to incidents through Better Stack.",
