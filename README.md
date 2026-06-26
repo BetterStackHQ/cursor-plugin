@@ -4,7 +4,7 @@ Connect Cursor to your [Better Stack](https://betterstack.com) Uptime and Teleme
 
 ## Install
 
-[**Add Better Stack to Cursor**](https://cursor.com/en/install-mcp?name=better-stack&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vbWNwLmJldHRlcnN0YWNrLmNvbSJ9)
+[**Add Better Stack to Cursor**](https://cursor.com/en/install-mcp?name=betterstack&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vbWNwLmJldHRlcnN0YWNrLmNvbSJ9)
 
 Or add it manually to your Cursor `mcp.json`:
 
@@ -50,7 +50,7 @@ OAuth is the recommended flow and works out of the box with Cursor. If you prefe
 ```json
 {
   "mcpServers": {
-    "better-stack": {
+    "betterstack": {
       "type": "http",
       "url": "https://mcp.betterstack.com",
       "headers": {
@@ -71,7 +71,7 @@ Restrict which tools the agent can use with one of these headers:
 ```json
 {
   "mcpServers": {
-    "better-stack": {
+    "betterstack": {
       "type": "http",
       "url": "https://mcp.betterstack.com",
       "headers": {
