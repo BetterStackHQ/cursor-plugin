@@ -1,10 +1,10 @@
 {
   "name": "betterstack",
   "displayName": "Better Stack",
-  "version": "1.0.0",
-  "description": "Observability for AI agents: query logs and metrics, build dashboards, manage uptime monitors, and respond to incidents through Better Stack.",
+  "version": "1.0.1",
+  "description": "Connect Cursor to your Better Stack Incidents and Telemetry data.",
   "author": {
-    "name": "Better Stack",
+    "name": "Better Stack, Inc.",
     "email": "hello@betterstack.com",
     "url": "https://betterstack.com"
   },
