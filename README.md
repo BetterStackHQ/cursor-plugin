@@ -19,7 +19,13 @@ Or add it manually to your Cursor `mcp.json`:
 }
 ```
 
-The first tool call opens a browser for OAuth sign-in. No token configuration needed.
+The first tool call opens a browser for OAuth sign-in. No token configuration needed. Start a new chat after signing in so the tools load.
+
+The link and the manual config add the MCP server only. The skills come with the plugin from the Cursor Marketplace.
+
+### Not connected yet?
+
+The plugin's **connect-betterstack** skill checks whether the Better Stack tools are connected. When a Better Stack request comes in and they aren't, the agent tells you how to connect instead of failing quietly. You can also ask it directly: *"Set up Better Stack."*
 
 ## What you can do
 
