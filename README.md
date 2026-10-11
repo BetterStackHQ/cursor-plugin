@@ -43,6 +43,32 @@ The plugin exposes the full Better Stack MCP toolset:
 
 The complete tool reference and example prompts live in the [Better Stack MCP integration docs](https://betterstack.com/docs/getting-started/integrations/mcp/).
 
+## Skills
+
+The plugin comes with skills that teach your agent how to work with Better Stack. It loads each one when the task calls for it.
+
+**Investigate**
+
+- **investigate-incident**: investigates an incident or alert end to end. It finds the incident, checks who is on call, pulls the errors, logs, traces, metrics and releases around the start time, and posts a short situation report. It stays read-only unless asked to act.
+- **health-check**: a quick health assessment of a server or service (CPU, memory, disk, network, log levels, dependencies) with charts.
+
+**Query**
+
+- **logs-query**, **spans-query**, **metrics-query**, **errors-query**: the SQL dialect for each data type, with the mistakes that make queries fail or return wrong numbers.
+- **collector-queries**: proven host, container and service queries for Better Stack Collector sources.
+
+**Dashboards and alerts**
+
+- **dashboard-builder**, **dashboard-layout**: build dashboards that read well, with template variables and a clean grid.
+- **chart-generation**, **chart-styling**, **map-hierarchy-charts**: chart types, units and settings.
+- **chart-alerts**: threshold, relative and anomaly alerts on charts.
+- **uptime-monitors**: monitor types, valid settings and escalation policies.
+
+**Migrate**
+
+- **datadog-import**, **grafana-import**: recreate Datadog and Grafana dashboards in Better Stack.
+- **datadog-alert-import**: recreate Datadog monitors as Better Stack chart alerts.
+
 ## Authentication
 
 OAuth is the recommended flow and works out of the box with Cursor. If you prefer an API token, you can pass it via the `Authorization` header instead. See [API authentication](https://betterstack.com/docs/uptime/api/getting-started-with-uptime-api/):
