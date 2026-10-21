@@ -121,6 +121,11 @@ Useful for giving your agent read-only access, scoping it to a workflow, or trim
 - [MCP integration docs](https://betterstack.com/docs/getting-started/integrations/mcp/)
 - [Better Stack on Cursor](https://cursor.com/marketplace) (after listing approval)
 
+## Maintainers
+
+- **One version for all three plugins.** The Claude ([claude-plugin](https://github.com/BetterStackHQ/claude-plugin)), Codex ([codex-plugin](https://github.com/BetterStackHQ/codex-plugin)) and Cursor ([cursor-plugin](https://github.com/BetterStackHQ/cursor-plugin)) plugins always release with the same version number. A change that bumps one plugin's version bumps all three to that same number, in PRs opened together, even when the other two have nothing else to change. The version is set in `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json` (Claude), `.codex-plugin/plugin.json` (Codex) and `.cursor-plugin/plugin.json` (Cursor).
+- **Skills from AI SRE.** All skills except `investigate-incident` and `connect-betterstack` are built from AI SRE's skills with the sync tool in aisre-proxy, [`tooling/sync-plugin-skills`](https://github.com/BetterStackHQ/aisre-proxy/tree/main/tooling/sync-plugin-skills). Change them there, then sync.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
