@@ -25,7 +25,7 @@ The link and the manual config add the MCP server only. The skills come with the
 
 ### Not connected yet?
 
-The plugin's **connect-betterstack** skill checks whether the Better Stack tools are connected. When a Better Stack request comes in and they aren't, the agent tells you how to connect instead of failing quietly. You can also ask it directly: *"Set up Better Stack."*
+The plugin's **connect-betterstack** skill checks whether the Better Stack tools are connected. When a Better Stack request comes in and they aren't, the agent tells you how to connect instead of failing quietly. You can also ask it directly: *"Set up Better Stack."* Once connected, it looks at your account and suggests what to set up next, such as Claude investigating every new incident or fixing your errors on a schedule.
 
 ## What you can do
 
